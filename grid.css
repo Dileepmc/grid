@@ -1,0 +1,130 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(19, 15, 15, 0.747);
+     
+}
+
+nav ul{
+    background-color:rgba(0, 0, 0, 0.322);
+    display:grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    column-gap: 4rem;
+    padding: 1rem 2rem;
+    list-style: none;
+    color: white;
+    position: relative;
+}
+header img{
+    padding-right:550px;
+}
+nav ul button{
+    font-size: 20px;
+    padding: 1px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+h1 {
+    display: grid;
+    font-size: 35px;
+    color: black;
+    padding-left: 30px;
+    background-color: aquamarine;
+    column-width: auto;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 33%;
+
+
+}
+section p{
+    display: flex;
+    font-size: 20px;
+    color: azure;
+    text-align:justify;
+    padding: 35px 50px;
+    justify-content:space-between;
+    float: left;
+    
+}
+section img{
+    margin: 0;
+    padding: 50px 70px;
+}
+.datas1{
+    display: grid;
+    gap: 3.5rem;
+    grid-auto-flow: column;
+    grid-template-columns:200px 1fr 200px 1fr;
+}
+.datas1 img{
+    padding-bottom: 30px;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:35px;
+    padding-left: 44px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    opacity: 30%;
+    padding-bottom: 25px;
+}
+.datas2 div {
+    display:grid; 
+    float: right; 
+    font-size:20px;
+    font-weight:800;
+    color: rgb(56, 170, 132);
+    padding-top: 48px;
+}
+.datas2 img{
+    display: grid;
+    padding-left: 30px;
+    opacity: 42%;
+}
+h3{
+    color: white;
+    padding-left: 520px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    
+}
+.social{
+    font-size: 30px;
+    height: 50px;
+    width: 100px;
+    padding-top: 25px;
+}
+
+
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
